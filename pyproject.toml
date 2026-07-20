@@ -1,0 +1,13 @@
+[project]
+name = "discord-music-bot"
+version = "1.0.0"
+description = "A minimal Discord bot that loops the audio of a single YouTube link."
+requires-python = ">=3.10"
+dependencies = [
+    "discord-py[voice]>=2.7.1",
+    "python-dotenv>=1.2.2",
+    "yt-dlp>=2026.7.4",
+]
+
+[tool.ruff.lint]
+extend-select = ["COM812"]
