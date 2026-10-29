@@ -29,5 +29,5 @@ A minimal Discord bot that loops the audio of a single YouTube link. Intended to
 ## Run
 
 ```sh
-python bot.py
+./run.sh
 ```
